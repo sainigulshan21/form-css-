@@ -1,0 +1,59 @@
+:root{
+    background-color: rgb(128, 214, 128);
+    display: flex;
+    justify-content: center;
+margin: 0;
+padding: 0;}
+
+.container{
+    position: relative;
+    top: -20px;
+}
+.name h1{
+    position: relative;
+    left: 8rem;
+}
+
+.form{
+    height: 30rem;
+    width: 40rem;
+    background-color: white;
+    padding: 10px;
+    line-height: 1.5rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    overflow:auto;
+
+}
+label{
+    font-size: 1.2rem;
+}
+
+input,select,textarea,button{
+    width: 98%;
+    height: 2rem;
+}
+
+input[type="radio"]{
+    width: 1rem ;
+    position: relative;
+    top: 0.6rem;
+}
+input[type="checkbox"]{
+    width: 1rem ;
+    position: relative;
+    top: 0.6rem;
+}
+
+textarea{
+    height: 5rem;
+}
+
+button{
+    background-color: green;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: 4rem;
+    /* border-radius: 25%; */
+    border-radius: 2px solid black;
+}
